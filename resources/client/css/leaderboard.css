@@ -1,0 +1,52 @@
+h1 {
+    margin-left: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0px 0px 15px blue;
+}
+
+table {
+    margin: 6% auto 11%;
+    width: 60%;
+}
+
+td {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    height: 100px;
+    text-shadow: 0px 0px 15px blue;
+    letter-spacing: 5px;
+}
+
+tr > :nth-child(1) {
+    width: 100px;
+}
+
+tr > :nth-child(2) {
+    text-align: right;
+    width: 70px;
+}
+
+tr > :nth-child(3) {
+    width: 40%;
+}
+
+tr > :nth-child(4) {
+    text-align: center;
+}
+
+body {
+    background-color: darkseagreen;
+    background-image: url("leaderboardbackground.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
+
+title {
+
+}
